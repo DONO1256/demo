@@ -17,5 +17,11 @@ public class DemoApplication {
 		this.name = name;
 	}
 	private String name;
+	@Override
+	public String toString() {
+		return "DemoApplication [name=" + name + "]";
+	}
+	
+	
 
 }
