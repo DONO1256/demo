@@ -22,6 +22,6 @@ public class DemoApplication {
 		return "DemoApplication [name=" + name + "]";
 	}
 	
-	
+	System.out.println("ADDED");
 
 }
